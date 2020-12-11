@@ -50,12 +50,15 @@ export const burger = {
   category: "Lunch",
 }
 
-const burger.discount()
-if (teacher=='teacher')
-return 13.5;
-else ()
-return 16.2
-console.log(teacher)
+function hungryPerson(person){
+  if(person==='teacher' || person==='student') {
+    return 18 * 0.25;
+  } else {
+    return 18 * 0.10;
+  }
+}
+
+console.log(hungryPerson(teacher));
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
@@ -90,7 +93,11 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
-
+// const feedback = [];
+// for(let i = 0; i < reviews.length; i++){
+//   if(reviews[i].feedback.includes('')){
+//     feedback.push('This place was a little to dirty for my liking but it passed the burger taste test.'))
+// }
 
 
 
@@ -104,13 +111,11 @@ Use the getReviewByIndex function below to do the following:
   For example: getReviewByIndex(reviews,0) would return: "Daniela gave the restaurant a 5 star review, and their feedback was: Beautiful atmosphere and wonderful vegan options!"
 */
 
-
 function getReviewByIndex(/*Your code here*/) {
   /*Your code here*/
 }
 
 
-  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Write a function to get information about the most recent (last) review called `getLastReview`
